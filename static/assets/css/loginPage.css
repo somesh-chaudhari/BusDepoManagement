@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: url(../img/hero-bg.png) top center no-repeat;
+}
+
+.wrapper{
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  box-shadow: 5px 5px 15px -2px rgba(182, 181, 181, 0.58);
+  padding: 60px 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  border: 1px solid #cecece;
+}
+
+.wrapper .title{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #FF9900;
+}
+
+.wrapper .social_media{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .social_media .item{
+  margin: 0 5px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 2px solid #eeeeee;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #eeeeee;
+  transition: all 0.5s ease;
+}
+
+.wrapper .social_media .item:hover{
+  border: 2px solid #FF9900;
+  color: #FF9900;
+}
+
+.wrapper .form .input_field{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.wrapper .form .btn{
+  width: 55%;
+  margin: 20px 60px 0;
+  font-size: 18px;
+  background-image: linear-gradient(180deg,#fcae3aea,#FF9900);
+  color: #fff;
+  padding: 6px;
+  border-radius: 25px;
+}
+
+.wrapper .form .input_field i{
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  font-size: 14px;
+  color: #1d2120;
+}
+
+.registration{
+  position: absolute;
+  top: 92%;
+  left: 15%;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #1d2120;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ color: #1d2120;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #1d2120;
+}
